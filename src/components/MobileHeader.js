@@ -100,6 +100,7 @@ export default class MobileHeader extends Component {
                   </Link>
                 </NavLink>
               </NavItem>
+              {/*}
               <NavItem>
                 <NavLink className="nav-link-mobile">
                   <Link to={Routes.MECHANICAL_SCREEN}>
@@ -120,6 +121,7 @@ export default class MobileHeader extends Component {
                   </Link>
                 </NavLink>
               </NavItem>
+          */}
             </Nav>
           </Navbar>
           <div className="drop-mobile">

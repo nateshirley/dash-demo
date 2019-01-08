@@ -1,5 +1,5 @@
 .graph-card {
-  background-color: #444444;
+  background-color: transparent;
   border-radius: 4px;
   padding-top: 6px;
   padding-left: 6px;
@@ -25,11 +25,11 @@
 .left-third {
   border-right: solid;
   border-right-width: 1px;
-  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .right-two-thirds {
-  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .graph-small {
@@ -188,7 +188,7 @@
 
 @media screen and (max-width: 992px) {
   .graph-card {
-    background-color: #444444;
+    background-color: transparent;
     border-radius: 4px;
     padding-top: 6px;
     padding-left: 6px;

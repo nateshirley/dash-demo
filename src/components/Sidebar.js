@@ -41,25 +41,13 @@ export default class Sidebar extends Component {
     this.setState({
       collapsed: !this.state.collapsed
     });
-  }
+  };
 
   render() {
     return (
       <div className="sidebar-outer">
         <div className="padding-top" />
         <Nav tabs vertical>
-          <NavItem>
-            <NavLink className="nav-link">
-              <div style={styles.buttonStyles} className="sidebar-nav-button">
-                <Link to={Routes.INVENTORY_SCREEN}>
-                  <img
-                    src={leafIcon}
-                    style={{ height: 25, width: 25, marginLeft: -10 }}
-                  />
-                </Link>
-              </div>
-            </NavLink>
-          </NavItem>
           <NavItem>
             <NavLink className="nav-link">
               <div style={styles.buttonStyles}>
@@ -72,6 +60,19 @@ export default class Sidebar extends Component {
               </div>
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink className="nav-link">
+              <div style={styles.buttonStyles} className="sidebar-nav-button">
+                <Link to={Routes.INVENTORY_SCREEN}>
+                  <img
+                    src={leafIcon}
+                    style={{ height: 25, width: 25, marginLeft: -10 }}
+                  />
+                </Link>
+              </div>
+            </NavLink>
+          </NavItem>
+          {/*
           <NavItem>
             <NavLink className="nav-link">
               <div style={styles.buttonStyles}>
@@ -96,6 +97,7 @@ export default class Sidebar extends Component {
               </div>
             </NavLink>
           </NavItem>
+          */}
         </Nav>
         <div className="drop">
           <UncontrolledDropdown size="sm">

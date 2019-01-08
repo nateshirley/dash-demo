@@ -24,11 +24,6 @@ class Navigation extends Component {
         <div>
           <Route
             exact
-            path={Routes.LANDING_PAGE}
-            component={() => <LandingPage />}
-          />
-          <Route
-            exact
             path={Routes.WATER_SCREEN}
             /*
             Becasue water screen is the only fully implemented screen, 
@@ -41,6 +36,7 @@ class Navigation extends Component {
             path={Routes.ELECTRIC_SCREEN}
             component={() => <ElectricScreen />}
           />
+          {/*
           <Route
             path={Routes.MECHANICAL_SCREEN}
             component={() => <MechanicalScreen />}
@@ -50,6 +46,7 @@ class Navigation extends Component {
             path={Routes.INVENTORY_SCREEN}
             component={() => <DataFetch screen="InventoryScreen" />}
           />
+          */}
         </div>
       </BrowserRouter>
     );
