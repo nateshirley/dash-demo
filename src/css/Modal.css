@@ -1,0 +1,75 @@
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(43, 43, 43, 0.5);
+  z-index: 1000;
+}
+
+detailed-graph-div {
+  padding-top: 10px;
+}
+
+.detailed-graph-modal {
+  background-color: #303030;
+  width: 85vw;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+
+.modal-card {
+  border-width: 5px;
+  border-color: white;
+  height: 85vh;
+  overflow: scroll;
+}
+
+.header {
+  z-index: 1000;
+  padding-bottom: 4px;
+  width: 100%;
+  height: 50px;
+  margin-top: -10px;
+  font-size: 2.2vmax;
+  font-weight: 200;
+  text-align: left;
+}
+.modal-graph-title {
+  color: "white";
+  font-size: 3.5vmin;
+  font-weight: 100;
+  text-align: left;
+}
+
+.modal-close {
+  padding-right: 0.4vw;
+  float: right;
+  margin-right: -10px;
+}
+
+@media screen and (max-width: 992px) {
+  .modal-close {
+    margin-top: -1px;
+  }
+
+  .modal-title {
+    color: "white";
+    font-size: 2.5vmax;
+    font-weight: 200;
+    text-align: left;
+  }
+  .header {
+    z-index: 1000;
+    height: 42px;
+    padding-bottom: 5px;
+    font-size: 5.5vmin;
+    font-weight: 100;
+  }
+  .modal-card {
+    height: 67vh;
+    margin-top: 70px;
+  }
+}

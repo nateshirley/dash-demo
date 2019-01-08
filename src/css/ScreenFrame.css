@@ -1,0 +1,35 @@
+.outer-div {
+  width: "100%";
+  margin: 0;
+  background-color: #444444;
+}
+.mobile-header-div {
+  display: none;
+}
+.header-div {
+  display: inline;
+}
+.sidebar-div {
+  background-color: "#303030";
+  margin: 0;
+  float: left;
+  height: "100%";
+  width: 55px;
+  background-color: #303030;
+}
+
+@media screen and (max-width: 992px) {
+  .sidebar-div {
+    display: none;
+    width: 0px;
+  }
+  .header-div {
+    display: none;
+  }
+  .mobile-header-div {
+    display: inline-block;
+  }
+  .outer-div {
+    margin-right: -45px;
+  }
+}

@@ -1,0 +1,20 @@
+.outer-div-landing {
+  height: 100%;
+  width: 100%;
+}
+
+.header-and-graph-div {
+  height: 100vh;
+}
+
+.logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 94%;
+  background-color: #444444;
+}
+
+.logo-large {
+  width: 35vw;
+}

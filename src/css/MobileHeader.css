@@ -1,0 +1,65 @@
+.header-outer-div {
+  width: 100vw;
+}
+
+.collapseable-nav {
+  width: 100vw;
+  color: white;
+}
+
+.nav-button {
+  padding-top: 10px;
+  color: white;
+}
+
+.screen-name {
+  color: white;
+}
+
+.nav-item {
+  width: 90vw;
+  padding-bottom: 10px;
+  border-color: white;
+}
+
+.icon-word-div {
+  justify-content: horizontal;
+  color: white;
+}
+
+.logo {
+  padding-left: 9px;
+  width: 100px;
+  padding-top: 10px;
+}
+
+.icon-leaf {
+  padding-right: 10px;
+  width: 25px;
+}
+
+.icon-water {
+  padding-right: 10px;
+  width: 22px;
+}
+
+.icon-mech {
+  padding-right: 10px;
+  width: 28px;
+}
+
+.icon-electric {
+  padding-right: 10px;
+  width: 21px;
+}
+
+.nav-link-mobile {
+  width: 90vw;
+}
+
+@media screen and (max-width: 992px) {
+  .icon {
+    padding-left: 10px;
+    width: 24px;
+  }
+}

@@ -1,0 +1,27 @@
+.sidebar-div {
+  height: 102vh;
+}
+
+.drop {
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+.drop-mobile {
+  padding-left: 18px;
+}
+
+.settings-dropdown {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.light-theme-label {
+  padding-bottom: 3px;
+}
+.padding-top {
+  height: 70px;
+}
+.nav-link {
+  width: 55px;
+}
