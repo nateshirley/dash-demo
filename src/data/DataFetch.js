@@ -8,8 +8,8 @@ var s3 = new s3({
   apiVersion: "2006-03-01",
   region: "us-east-1",
   credentials: {
-    accessKeyId: "AKIAJTKJZZSQCJCFO3AA",
-    secretAccessKey: "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"
+    accessKeyId: "AKIAJR3NH5EQVUJK4E4Q",
+    secretAccessKey: "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"
   }
 });
 
