@@ -80,16 +80,6 @@ export default class MobileHeader extends Component {
         <Collapse isOpen={!this.state.collapsed} className="collapsable-nav">
           <Navbar>
             <Nav tabs>
-              <NavItem className="nav-item">
-                <NavLink className="nav-link-mobile">
-                  <Link to={Routes.INVENTORY_SCREEN}>
-                    <div style={{ color: "white" }}>
-                      Inventory
-                      <img src={leafIcon} className="icon" />
-                    </div>
-                  </Link>
-                </NavLink>
-              </NavItem>
               <NavItem>
                 <NavLink className="nav-link-mobile">
                   <Link to={Routes.WATER_SCREEN}>
@@ -100,6 +90,17 @@ export default class MobileHeader extends Component {
                   </Link>
                 </NavLink>
               </NavItem>
+              <NavItem className="nav-item">
+                <NavLink className="nav-link-mobile">
+                  <Link to={Routes.INVENTORY_SCREEN}>
+                    <div style={{ color: "white" }}>
+                      Inventory
+                      <img src={leafIcon} className="icon" />
+                    </div>
+                  </Link>
+                </NavLink>
+              </NavItem>
+
               {/*}
               <NavItem>
                 <NavLink className="nav-link-mobile">

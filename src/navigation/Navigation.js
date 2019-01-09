@@ -33,19 +33,21 @@ class Navigation extends Component {
           />
           <Route
             exact
+            path={Routes.INVENTORY_SCREEN}
+            component={() => <DataFetch screen="InventoryScreen" />}
+          />
+          {/*
+          <Route
+            exact
             path={Routes.ELECTRIC_SCREEN}
             component={() => <ElectricScreen />}
           />
-          {/*
+          
           <Route
             path={Routes.MECHANICAL_SCREEN}
             component={() => <MechanicalScreen />}
           />
-          <Route
-            exact
-            path={Routes.INVENTORY_SCREEN}
-            component={() => <DataFetch screen="InventoryScreen" />}
-          />
+          
           */}
         </div>
       </BrowserRouter>

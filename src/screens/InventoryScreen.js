@@ -30,7 +30,7 @@ class InventoryScreen extends Component {
     }
     return (
       <div
-        className="outer-inventory-div"
+        className="graphs-div"
         style={{ backgroundColor: screenBackgroundColor }}
       >
         <Row>
