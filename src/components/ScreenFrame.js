@@ -6,6 +6,7 @@ import Sidebar from "./Sidebar";
 import MobileHeader from "./MobileHeader";
 import WaterScreen from "../screens/WaterScreen";
 import InventoryScreen from "../screens/InventoryScreen";
+import * as localData from "../data/MockData";
 
 //Simple header to display the Beanstalk Logo, and the name of the current screen
 
@@ -21,8 +22,8 @@ export default class ScreenFrame extends Component {
     if (this.props.screen === "WaterScreen") {
       return (
         <WaterScreen
-          temperatureData={this.props.screenMeasurementsData[0]}
-          pHData={this.props.screenMeasurementsData[1]}
+          temperatureData={localData.mockData[0]}
+          pHData={localData.mockData[1]}
           isLight={this.state.isLight}
         />
       );
@@ -36,7 +37,7 @@ export default class ScreenFrame extends Component {
     if (this.props.screen === "InventoryScreen") {
       return (
         <InventoryScreen
-          growthData={this.props.screenMeasurementsData[0]}
+          growthData={localData.mockData[2]}
           isLight={this.state.isLight}
         />
       );

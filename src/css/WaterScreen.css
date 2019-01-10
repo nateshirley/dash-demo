@@ -1,1 +1,8 @@
-
+.buffer {
+  padding-left: 15px;
+}
+@media screen and (max-width: 992px) {
+  .buffer {
+    padding-left: 0px;
+  }
+}

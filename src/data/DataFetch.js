@@ -109,12 +109,12 @@ export default class DataFetch extends Component {
   //call functions before render
   componentWillMount() {
     this.setScreenDataFilters();
-    this.getDataFromAws();
+    //this.getDataFromAws();
   }
 
   //after component renders, set an interval to re-fetch the data from AWS
   componentDidMount() {
-    setInterval(() => this.getDataFromAws(), 10000);
+    //setInterval(() => this.getDataFromAws(), 10000);
   }
 
   //render intended screen with recently fetched data

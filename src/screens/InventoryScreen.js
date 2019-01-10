@@ -35,14 +35,16 @@ class InventoryScreen extends Component {
       >
         <Row>
           <Col>
-            <HistogramCard
-              graphData={this.props.growthData}
-              title="Tower 1 Growth Stages"
-              size="large"
-              unitOfMeasurement="%"
-              graphColor="purple"
-              isLight={this.props.isLight}
-            />
+            <div className="buffer">
+              <HistogramCard
+                graphData={this.props.growthData}
+                title="Tower 1 Growth Stages"
+                size="large"
+                unitOfMeasurement="%"
+                graphColor="purple"
+                isLight={this.props.isLight}
+              />
+            </div>
           </Col>
           <Col>
             <HistogramCard
@@ -57,14 +59,16 @@ class InventoryScreen extends Component {
         </Row>
         <Row>
           <Col>
-            <HistogramCard
-              graphData={this.props.growthData}
-              title="Tower 3 Growth Stages"
-              size="large"
-              unitOfMeasurement="%"
-              graphColor="purple"
-              isLight={this.props.isLight}
-            />
+            <div className="buffer">
+              <HistogramCard
+                graphData={this.props.growthData}
+                title="Tower 3 Growth Stages"
+                size="large"
+                unitOfMeasurement="%"
+                graphColor="purple"
+                isLight={this.props.isLight}
+              />
+            </div>
           </Col>
           <Col>
             <HistogramCard

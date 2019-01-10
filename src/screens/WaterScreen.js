@@ -46,14 +46,16 @@ class WaterScreen extends Component {
           <Col>
             <Row className="topRow">
               <Col>
-                <LineGraphCard
-                  graphData={this.props.temperatureData}
-                  title="Water Temperature"
-                  size="large"
-                  unitOfMeasurement="&deg; F"
-                  graphColor="purple"
-                  isLight={this.props.isLight}
-                />
+                <div className="buffer">
+                  <LineGraphCard
+                    graphData={this.props.temperatureData}
+                    title="Water Temperature"
+                    size="large"
+                    unitOfMeasurement="&deg; F"
+                    graphColor="purple"
+                    isLight={this.props.isLight}
+                  />
+                </div>
               </Col>
               <Col>
                 <LineGraphCard
@@ -67,13 +69,15 @@ class WaterScreen extends Component {
             </Row>
             <Row className="bottom-row">
               <Col>
-                <LineGraphCard
-                  graphColor="blue"
-                  graphData={this.props.pHData}
-                  title="Water pH"
-                  size="small"
-                  isLight={this.props.isLight}
-                />
+                <div className="buffer">
+                  <LineGraphCard
+                    graphColor="blue"
+                    graphData={this.props.pHData}
+                    title="Water pH"
+                    size="small"
+                    isLight={this.props.isLight}
+                  />
+                </div>
               </Col>
               <Col>
                 <LineGraphCard
